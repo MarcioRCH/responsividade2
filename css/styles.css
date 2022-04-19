@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+:root{
+    --color-green: #38AF90;
+    --color-light-gray: #E5E5E5;
+    --color-white-gray: #F0F0F0;
+    --color-gray: #797979;
+    --color-red: #DD7E92;
+    --color-black: #383838;
+    --color-white:#FFFFFF;
+}
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a, a:hover{
+    text-decoration: none;
+    color: unset;
+}
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+header{
+    background-color: var(--color-green);
+    height: 90px;
+}
+.container-header{
+    color: var(--color-white);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px 15px 10px;
+}
+.container-title{
+    background-color: var(--color-white);
+}
+.container-title h2{
+    color: var(--color-gray);
+    font-size: 24px;
+    text-align: center;
+    padding: 40px 0 10px 0;
+}
+.container-title-main{
+    background-color: var(--color-white-gray);
+    margin-bottom: 30px;
+    border-radius: 8px;
+    padding-top: 16px;
+    border-bottom-style: outset;
+    padding: 0 12px 0 12px;
+}
+.container-title-about h3{
+    color: var(--color-green);
+    font-size: 16px;
+}
+.container-title-about h4{
+    color: var(--color-gray);
+    font-size: 12px;
+}
+.container-about{
+    font-size: 10px;
+}
+#current-date, #current-date-sec{
+    color: var(--color-green);
+    font-size: 10px;
+    border-top: 1px;
+    border-top-style: solid;
+}
+.container-button{
+    border: none;
+    color: var(--color-red);
+    font-size: 14px;
+    font-weight: bold;
+}
+.container-more{
+    height: 67px;
+    width: 244px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border-radius: 8px;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 auto;
+}

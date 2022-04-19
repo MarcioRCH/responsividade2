@@ -9,8 +9,11 @@
 </head>
 <body>
     <header>
-        <nav>
-            <div><h1>DSPlayGames</h1></div>
+        <nav class="container">
+            <div class="container-header">
+                <h1>DSPlayGames</h1>
+                <img src="img/profile.svg" alt="profile">
+            </div>
         </nav>
     </header>
     <main>
@@ -19,31 +22,56 @@
                 <div class="container-title">
                     <h2>Últimas notícias</h2>
                 </div>
-                <div class="container-title-about">
-                    <h3>Título principal da notícia</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</p>
+                <div class="container-title-main">
+                    <div class="container-title-about">
+                        <h3>Título principal da notícia</h3>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
+                    </div>
+                    <div id="current-date">
+                        <script>
+                        date = new Date();
+                        year = date.getFullYear();
+                        month = date.getMonth() + 1;
+                        day = date.getDate();
+                        document.getElementById("current-date").innerHTML = day + "/0" + month + "/" + year;
+                        </script>
+                    </div>
+                    <div class="container-about">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, voluptatibus, numquam deleniti nesciunt reprehenderit delectus omnis alias necessitatibus vitae temporibus quam libero. Unde, error! Natus distinctio ab nisi quam temporibus voluptatum enim eos cupiditate doloribus porro, ad eius ipsum qui in odio! Magnam distinctio molestias enim ratione officiis assumenda, corporis quia, dolorum minus eos ipsum! Nostrum voluptate alias quas suscipit explicabo, ratione ad illo consequatur, quos perspiciatis voluptates nemo inventore vel ex ipsa! Velit maiores amet et perspiciatis distinctio animi atque? Ratione expedita officia eveniet obcaecati suscipit pariatur voluptas aut ab assumenda reiciendis excepturi consequuntur eligendi recusandae perferendis quaerat dolores, eum odit impedit? Recusandae deserunt laborum placeat ut nemo fugit quos sunt eveniet aut magni quaerat commodi maxime repellat iusto blanditiis, totam quas veniam voluptatibus inventore error minima vero qui. Eveniet optio quia laudantium voluptate, beatae minus pariatur ea. Blanditiis, nulla, natus illum aspernatur beatae magnam repellendus deleniti fuga quae fugiat ipsum minima aliquid sint dolor mollitia atque adipisci? Dolor voluptatum sint deleniti laborum illo nihil dolore impedit nemo tenetur quia odio repudiandae modi enim eos quod alias atque dignissimos mollitia obcaecati, quibusdam recusandae. Reiciendis neque, modi consectetur consequuntur earum temporibus voluptate fugit ex mollitia ratione aut tenetur reprehenderit non.</p>
+                    </div>
+                    <div>
+                        <button class="container-button">Ler mais...</button>
+                    </div>
                 </div>
-                <div class="container-about">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, voluptatibus, numquam deleniti nesciunt reprehenderit delectus omnis alias necessitatibus vitae temporibus quam libero. Unde, error! Natus distinctio ab nisi quam temporibus voluptatum enim eos cupiditate doloribus porro, ad eius ipsum qui in odio! Magnam distinctio molestias enim ratione officiis assumenda, corporis quia, dolorum minus eos ipsum! Nostrum voluptate alias quas suscipit explicabo, ratione ad illo consequatur, quos perspiciatis voluptates nemo inventore vel ex ipsa! Velit maiores amet et perspiciatis distinctio animi atque? Ratione expedita officia eveniet obcaecati suscipit pariatur voluptas aut ab assumenda reiciendis excepturi consequuntur eligendi recusandae perferendis quaerat dolores, eum odit impedit? Recusandae deserunt laborum placeat ut nemo fugit quos sunt eveniet aut magni quaerat commodi maxime repellat iusto blanditiis, totam quas veniam voluptatibus inventore error minima vero qui. Eveniet optio quia laudantium voluptate, beatae minus pariatur ea. Blanditiis, nulla, natus illum aspernatur beatae magnam repellendus deleniti fuga quae fugiat ipsum minima aliquid sint dolor mollitia atque adipisci? Dolor voluptatum sint deleniti laborum illo nihil dolore impedit nemo tenetur quia odio repudiandae modi enim eos quod alias atque dignissimos mollitia obcaecati, quibusdam recusandae. Reiciendis neque, modi consectetur consequuntur earum temporibus voluptate fugit ex mollitia ratione aut tenetur reprehenderit non.</p>
+                <div class="container-title-main">
+                    <div class="container-title-about">
+                        <h3>Título principal da notícia</h3>
+                        <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
+                    </div>
+                    <div id="current-date-sec">
+                        <script>
+                        date = new Date();
+                        year = date.getFullYear();
+                        month = date.getMonth() + 1;
+                        day = date.getDate();
+                        document.getElementById("current-date-sec").innerHTML = day + "/0" + month + "/" + year;
+                        </script>
+                    </div>
+                    <div class="container-about">
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, voluptatibus, numquam deleniti nesciunt reprehenderit delectus omnis alias necessitatibus vitae temporibus quam libero. Unde, error! Natus distinctio ab nisi quam temporibus voluptatum enim eos cupiditate doloribus porro, ad eius ipsum qui in odio! Magnam distinctio molestias enim ratione officiis assumenda, corporis quia, dolorum minus eos ipsum! Nostrum voluptate alias quas suscipit explicabo, ratione ad illo consequatur, quos perspiciatis voluptates nemo inventore vel ex ipsa! Velit maiores amet et perspiciatis distinctio animi atque? Ratione expedita officia eveniet obcaecati suscipit pariatur voluptas aut ab assumenda reiciendis excepturi consequuntur eligendi recusandae perferendis quaerat dolores, eum odit impedit? Recusandae deserunt laborum placeat ut nemo fugit quos sunt eveniet aut magni quaerat commodi maxime repellat iusto blanditiis, totam quas veniam voluptatibus inventore error minima vero qui. Eveniet optio quia laudantium voluptate, beatae minus pariatur ea. Blanditiis, nulla, natus illum aspernatur beatae magnam repellendus deleniti fuga quae fugiat ipsum minima aliquid sint dolor mollitia atque adipisci? Dolor voluptatum sint deleniti laborum illo nihil dolore impedit nemo tenetur quia odio repudiandae modi enim eos quod alias atque dignissimos mollitia obcaecati, quibusdam recusandae. Reiciendis neque, modi consectetur consequuntur earum temporibus voluptate fugit ex mollitia ratione aut tenetur reprehenderit non.</p>
+                    </div>
+                    <div>
+                        <button class="container-button">Ler mais...</button>
+                    </div>
                 </div>
-                <div class="container-button">
-                    <input type="submit" value="Carregar mais">
-                </div>
-                <div class="container-title-about">
-                    <h3>Título principal da notícia</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</p>
-                </div>
-                <div class="container-about">
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus, voluptatibus, numquam deleniti nesciunt reprehenderit delectus omnis alias necessitatibus vitae temporibus quam libero. Unde, error! Natus distinctio ab nisi quam temporibus voluptatum enim eos cupiditate doloribus porro, ad eius ipsum qui in odio! Magnam distinctio molestias enim ratione officiis assumenda, corporis quia, dolorum minus eos ipsum! Nostrum voluptate alias quas suscipit explicabo, ratione ad illo consequatur, quos perspiciatis voluptates nemo inventore vel ex ipsa! Velit maiores amet et perspiciatis distinctio animi atque? Ratione expedita officia eveniet obcaecati suscipit pariatur voluptas aut ab assumenda reiciendis excepturi consequuntur eligendi recusandae perferendis quaerat dolores, eum odit impedit? Recusandae deserunt laborum placeat ut nemo fugit quos sunt eveniet aut magni quaerat commodi maxime repellat iusto blanditiis, totam quas veniam voluptatibus inventore error minima vero qui. Eveniet optio quia laudantium voluptate, beatae minus pariatur ea. Blanditiis, nulla, natus illum aspernatur beatae magnam repellendus deleniti fuga quae fugiat ipsum minima aliquid sint dolor mollitia atque adipisci? Dolor voluptatum sint deleniti laborum illo nihil dolore impedit nemo tenetur quia odio repudiandae modi enim eos quod alias atque dignissimos mollitia obcaecati, quibusdam recusandae. Reiciendis neque, modi consectetur consequuntur earum temporibus voluptate fugit ex mollitia ratione aut tenetur reprehenderit non.</p>
-                </div>
-                <div class="container-button">
-                    <input type="submit" value="Carregar mais">
+                <div class="container-more">
+                    <button class="container-more">Carregar mais</button>
                 </div>
             </div>
         </section>
         <section>
             <div class="container">
-                <div class="container-title">
+                <div class="container-title-game">
                     <h2>Jogos</h2>
                 </div>
             </div>
@@ -51,7 +79,7 @@
         </section>
         <section>
             <div class="container">
-                <div class="container-title">
+                <div class="container-title-formulary">
                     <h2>Faça sua inscrição</h2>
                 </div>
                 <div class="container-formulary">
@@ -84,8 +112,8 @@
     <footer>
         <div class="container">
             <div class="container-link">
-                <a href="https://www.instagram.com/devsuperior.ig">@dsplaygames</a>
-                <a href="https://www.youtube.com/devsuperior">/dsplaygames</a>
+                <a href="https://www.instagram.com/marciorchsilva/" target="_blank">@dsplaygames</a>
+                <a href="https://github.com/MarcioRCH" target="_blank">/dsplaygames</a>
             </div>
             <div class="container-terms">
                 <p>DS Play Games Ltda. Todos direitos reservados</p>
