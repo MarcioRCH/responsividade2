@@ -264,6 +264,8 @@ footer{
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 .container-link{
     display: flex;
@@ -279,4 +281,58 @@ footer{
     display: flex;
     flex-direction: column;
     padding: 28px 0 37px 0;
+}
+@media(max-width: 768px){
+    .menu-items li{
+        visibility: hidden;
+    }
+    .container-header h1{
+        font-size: 18px;
+    }
+    .container-title h2{
+        font-size: 24px;
+    }
+    .container-title-about h3{
+        font-size: 16px;
+    }
+    .container-title-about h4{
+        font-size: 12px;
+    }
+    .container-title-game h2{
+        font-size: 24px;
+    }
+    .container-game{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 0 10px 0;
+    }
+    .container-unity-game{
+        margin-bottom: 30px;
+    }
+    .container-title-formulary h2{
+        font-size: 24px;
+    }
+    .container-formulary input{
+        width: 100%;
+        max-width: 280px;
+    }
+    .container-platforms, .container-news{
+        width: 100%;
+        max-width: 280px;
+    }
+    .container-main-submit{
+        display: flex;
+        flex-direction: column;
+    }
+    .container-reset{
+        margin: 0 auto;
+    }
+    .container-submit{
+        margin: 50px auto 20px auto;
+    }
+    .container-main-footer{
+        display: flex;
+        flex-direction: column;
+    }
 }
