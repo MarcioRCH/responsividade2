@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,7 +12,12 @@
         <nav class="container">
             <div class="container-header">
                 <h1>DSPlayGames</h1>
-                <img src="img/profile.svg" alt="profile">
+                <ul class="menu-items">
+                    <li><a href="#Noticias">Notícias</a></li>
+                    <li><a href="#Jogos">Jogos</a></li>
+                    <li><a href="#Inscrição">Inscreva-se</a></li>
+                    <img src="img/profile.svg" alt="profile">
+                </ul>
             </div>
         </nav>
     </header>
@@ -20,7 +25,7 @@
         <section>
             <div class="container">
                 <div class="container-main">
-                    <div class="container-title">
+                    <div id="Noticias" class="container-title">
                         <h2>Últimas notícias</h2>
                     </div>
                     <div class="container-title-main">
@@ -46,8 +51,10 @@
                             </div>
                         </form>
                     </div>
+                </div>
+                <div class="container-main">
                     <div class="container-title-main">
-                        <form action="more.html">
+                        <div class="container-main-about">
                             <div class="container-title-about">
                                 <h3>Título principal da notícia</h3>
                                 <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto vitae ducimus aperiam.</h4>
@@ -67,20 +74,19 @@
                             <div>
                                 <button class="container-button">Ler mais...</button>
                             </div>
-                        </form>
+                        </div>
                     </div>
-                    <div class="container-more">
-                        <form action="more.html">
-                            <button class="container-more">Carregar mais</button>
-                        </form>
-                    </div>
+                </div>
+                <div class="container-more">
+                    <form action="more.html">
+                        <button class="container-more">Carregar mais</button>
+                    </form>
                 </div>
             </div>
         </section>
         <section>
-            <div class="container">
                 <div class="container-main-game">
-                    <div class="container-title-game">
+                    <div id="Jogos" class="container-title-game">
                         <h2>Jogos</h2>
                     </div>
                     <div class="container-game">
@@ -93,8 +99,6 @@
                             </div>
                             <h5>9.7</h5>
                         </div>
-                    </div>
-                    <div class="container-game">
                         <div class="container-unity-game">
                             <img src="img/game.svg" alt="game">
                             <h3>Horizon Forbidden West</h3>
@@ -104,8 +108,6 @@
                             </div>
                             <h5>9.7</h5>
                         </div>
-                    </div>
-                    <div class="container-game">
                         <div class="container-unity-game">
                             <img src="img/game.svg" alt="game">
                             <h3>Horizon Forbidden West</h3>
@@ -117,12 +119,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-
         </section>
         <section>
             <div class="container">
-                <div class="container-title-formulary">
+                <div id="Inscrição" class="container-title-formulary">
                     <h2>Faça sua inscrição</h2>
                 </div>
                 <div class="container-main-formulary">
@@ -155,7 +155,7 @@
                                 <label for="ctrl-news">Desejo receber novidades?</label>
                             </div>
                         </div>
-                        <div class="conatiner-main-submit">
+                        <div class="container-main-submit">
                             <div class="container-submit">
                                 <input type="submit" value="Enviar">
                             </div>
@@ -176,7 +176,8 @@
                     <a href="https://github.com/MarcioRCH" target="_blank">/dsplaygames</a>
                 </div>
                 <div class="container-rights">
-                    <p>DS Play Games Ltda. Todos direitos reservados</p>
+                    <p>DS Play Games Ltda.</p>
+                    <p>Todos direitos reservados</p>
                 </div>
                 <div class="container-terms">
                     <p>Política de privacidade</p>

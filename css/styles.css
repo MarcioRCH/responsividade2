@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 :root{
     --color-green: #38AF90;
     --color-light-gray: #E5E5E5;
@@ -28,29 +28,46 @@ header{
     height: 90px;
 }
 .container-header{
+    font-size: 18px;
     color: var(--color-white);
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     padding: 15px 10px 15px 10px;
+}
+.container-header h1{
+    font-size: 24px;
+}
+.menu-items{
+    display: flex;
+    text-decoration: none;
+    list-style-type: none;
+    align-items: center;
+    justify-content: end;
+}
+.menu-items img{
+    padding-left: 30px;
+}
+.menu-items li{
+    font-size: 14px;
+    padding-left: 30px;
 }
 .container-title{
     background-color: var(--color-white);
 }
 .container-title h2{
     color: var(--color-gray);
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
-    padding: 40px 0 10px 0;
+    padding: 40px 0 40px 0;
 }
 .container-main{
     background-color: var(--color-white);
 }
 .container-title-main{
     background-color: var(--color-white-gray);
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border-radius: 8px;
-    padding-top: 16px;
     border-bottom-style: outset;
     padding: 0 12px 0 12px;
     margin-left: 10px;
@@ -58,11 +75,11 @@ header{
 }
 .container-title-about h3{
     color: var(--color-green);
-    font-size: 16px;
+    font-size: 24px;
 }
 .container-title-about h4{
     color: var(--color-gray);
-    font-size: 12px;
+    font-size: 16px;
 }
 .container-about{
     font-size: 10px;
@@ -91,11 +108,10 @@ header{
     font-size: 18px;
     font-weight: bold;
     margin: 0 auto;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .container-main-game{
     background-color: var(--color-white-gray);
-    margin: 0 10px 40px 10px;
 }
 .container-title-game{
     color: var(--color-green);
@@ -105,7 +121,9 @@ header{
     text-align: center;
 }
 .container-game{
-    padding: 30px 0 30px 0;
+    padding: 70px 0 70px 0;
+    display: flex;
+    justify-content: center;
 }
 .container-unity-game{
     background-color: var(--color-white);
@@ -113,7 +131,7 @@ header{
     border-bottom-style: outset;
     width: 100%;
     max-width: 300px;
-    margin: 0 auto;
+    margin: 0 10px;
 }
 .container-unity-game img{
     width: 100%;
@@ -162,7 +180,7 @@ header{
 }
 .container-formulary input{
     width: 100%;
-    max-width: 280px;
+    max-width: 642px;
     height: 50px;
     margin-top: 20px;
     padding-left: 20px;
@@ -171,14 +189,14 @@ header{
 }
 .container-title-formulary{
     color: var(--color-gray);
-    font-size: 24px;
+    font-size: 36px;
     font-weight: bold;
     text-align: center;
-    padding: 40px 0 16px 0;
+    padding: 40px 0 40px 0;
 }
 .container-platforms{
     width: 100%;
-    max-width: 280px;
+    max-width: 642px;
     color: var(--color-gray);
     text-align: justify;
     margin: 0 auto;
@@ -188,15 +206,17 @@ header{
 }
 .container-news{
     width: 100%;
-    max-width: 280px;
+    max-width: 642px;
     color: var(--color-gray);
     font-size: 16px;
     padding-top: 30px;
     text-align: justify;
     margin: 0 auto;
 }
-.conatiner-main-submit{
+.container-main-submit{
     padding-bottom: 33px;
+    display: flex;
+    justify-content: space-around;
 }
 .container-submit{
     width: 100%;
@@ -204,7 +224,7 @@ header{
     height: 67px;
     background-color: var(--color-red);
     border-radius: 8px;
-    margin: 45px auto 20px auto;
+    margin: 45px 25px 20px auto;
     text-align: center;
 }
 .container-submit input{
@@ -223,7 +243,7 @@ header{
     border-style: solid;
     border-color: var(--color-red);
     border-radius: 8px;
-    margin: 0 auto;
+    margin: 45px auto 20px 25px;
     font-size: 18px;
     text-align: center;
 }
@@ -235,10 +255,15 @@ header{
     font-weight: bold;
     font-size: 18px;
 }
-.container-main-footer{
+footer{
     background-color: var(--color-black);
+}
+.container-main-footer{
     color: var(--color-white);
     text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
 }
 .container-link{
     display: flex;
@@ -246,10 +271,12 @@ header{
     padding: 28px 0 37px 0;
 }
 .container-rights{
-    padding-bottom: 37px;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 0 37px 0;
 }
 .container-terms{
     display: flex;
     flex-direction: column;
-    padding-bottom: 30px;
+    padding: 28px 0 37px 0;
 }
